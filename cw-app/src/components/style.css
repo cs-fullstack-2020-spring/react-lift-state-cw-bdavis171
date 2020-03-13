@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#player-one {
+    grid-column: 1;
+    grid-row: 1/4;
+}
+
+#player-two {
+    grid-column: 3;
+    grid-row: 1/4;
+}
